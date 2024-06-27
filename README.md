@@ -1,6 +1,6 @@
-# QueryPDF 💬
+# QueryDocs 💬
 
-QueryPDF is a web application designed to enhance document analysis by intelligently retrieving relevant sentences based on user queries. Traditional search methods often miss nuanced information in documents, requiring exact keyword matches. QueryPDF overcomes this limitation using advanced sentence transformer models to identify contextually relevant sentences, even when specific keywords are absent.
+QueryDocs is a web application designed to enhance document analysis by intelligently retrieving relevant sentences based on user queries. Traditional search methods often miss nuanced information in documents, requiring exact keyword matches. QueryDocs overcomes this limitation using advanced sentence transformer models to identify contextually relevant sentences, even when specific keywords are absent.
 
 <p align="center">
   <img src="https://github.com/Git-With-Chris/ESG_Automation_ANZ/assets/132337461/782d8aab-7406-4d39-9291-bfb874aee466" width="700">
@@ -17,26 +17,26 @@ QueryPDF is a web application designed to enhance document analysis by intellige
 
 1. **Upload Document:** Upload your PDF document of interest.
 2. **Enter Query:** Specify your query or topic, such as "sustainable practices"
-3. **Retrieve Results:** QueryPDF scans the document, identifies contextually similar sentences, and presents them in a sorted list.
+3. **Retrieve Results:** QueryDocs scans the document, identifies contextually similar sentences, and presents them in a sorted list.
 
 ## Preview
-The following image illustrates the real-time functionality of the QueryPDF App
+The following image illustrates the real-time functionality of the QueryDocs App
 
 ![Preview](https://github.com/Git-With-Chris/ESG_Automation_ANZ/assets/132337461/b8b56079-b457-4cb3-bdbb-735c93947542)
 
 ## Installation
 
-To set up the QueryPDF App on your local machine, follow these steps:
+To set up the QueryDocs App on your local machine, follow these steps:
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Git-With-Chris/QueryPDF.git
+git clone https://github.com/Git-With-Chris/QueryDocs.git
 ```
 2. **Change Directory**
 
 ```bash
-cd QueryPDF
+cd QueryDocs
 ```
 3. **Install dependencies**
 
@@ -81,7 +81,7 @@ python app.py
 ```
 ## Contributing
 
-Contributions to QueryPDF are welcome! Here's how you can contribute:
+Contributions to QueryDocs are welcome! Here's how you can contribute:
 
 - Fork the repository
 - Create your feature branch `git checkout -b feature/YourFeature`
@@ -91,7 +91,7 @@ Contributions to QueryPDF are welcome! Here's how you can contribute:
 
 ## Acknowledgements
 
-QueryPDF would not be possible without the contributions of many open source projects:
+QueryDocs would not be possible without the contributions of many open source projects:
 
 - PyPDF
 - PyTorch
