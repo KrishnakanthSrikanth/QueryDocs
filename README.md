@@ -22,7 +22,7 @@ QueryDocs is a web application designed to enhance document analysis by intellig
 ## Preview
 The following image illustrates the real-time functionality of the QueryDocs App
 
-![Preview](https://github.com/Git-With-Chris/ESG_Automation_ANZ/assets/132337461/b8b56079-b457-4cb3-bdbb-735c93947542)
+![Preview](https://github.com/KrishnakanthSrikanth/QueryDocs/blob/main/Images/Preview.png)
 
 ## Installation
 
