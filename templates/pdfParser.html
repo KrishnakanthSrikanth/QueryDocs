@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query PDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="pdfParser">
+    <div class="top-bar">
+        <div class="top-left">
+            <strong>Welcome</strong> {{username}}!
+        </div>
+        <div class="top-right">
+            <span class="psw"><a href="/">Logout</a></span>
+        </div>
+    </div>
+    <div class="pdf-container">
+        <h1 class="heading">PDF Parser</h1>
+        <br>
+        <form id="pdfForm" action="/parse" method="post" enctype="multipart/form-data">
+            <!-- Replacing the input type text with a textarea for query input -->
+            <textarea id="query_input" name="query_input" placeholder="Enter Query" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="file" id="file" name="file" multiple>
+            <br><br>
+           <!-- <input type="checkbox" id="use_pypdf" name="use_pypdf" value="use_pypdf">
+            <label for="use_pypdf">Use PyPDF</label>
+            <br>
+            <input type="checkbox" id="use_ocr" name="use_ocr" value="use_ocr">
+            <label for="use_ocr">Use OCR</label> -->
+            <input type="submit" value="Submit" onclick="showLoading()">
+        </form>
+        <div class="loading" id="loading" style="display: none;">
+            <div class="loader"></div>
+            <p>Fetching results...</p>
+        </div>
+    </div>
+
+<script>
+    function showLoading() {
+        var loading = document.getElementById('loading');
+        loading.style.display = 'block';
+    }
+</script>
+
+</body>
+</html>

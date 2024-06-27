@@ -1,0 +1,33 @@
+<!-- HTML file for registration -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+	<style>
+		h3.text-center {
+    	color: red;
+		}
+	</style>
+</head>
+
+<body class="register">
+<div class="container">
+    <h1 class="heading">Registration Page</h1>
+<form method="post" action = "/register_check">
+	<h3 class="text-center"><strong>To be implemented...!!!!!!</strong></h3>
+	<div class="form-group"><input class="form-control" type="text" name="email" placeholder="Email" required></div><br>
+	<div class="form-group"><input class="form-control" type="text" name="password" placeholder="Password "></div><br>
+	<div class="form-group"><input class="form-control" type="text" name="user_name" placeholder="Username"></div><br>
+	<div class="form-group">
+		<input type="submit" name="submit" value="Register" class="btn btn-primary btn-block">
+	</div><br>
+	{% if error %}
+	<p style="color: red;">{{ error }}</p>
+	{% endif %}
+	<a href="/"></a>
+	<span class="psw">Already have an account? <a href="/">Login here!</a></span>
+</form>
+</div>
+</body>
+</html>

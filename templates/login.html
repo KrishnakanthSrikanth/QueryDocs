@@ -1,0 +1,29 @@
+<!-- HTML file for login -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<div class="aes-bar"></div>
+<body class="login">
+    <div class="container">
+        <h1 class="heading">Login Page</h1>
+        <form action="/login" method="post" enctype="multipart/form-data">
+            <label for="user_name">User Name:</label><br>
+            <input type="text" id="user_name" name="user_name" placeholder="User Name" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password" placeholder="Password" required><br><br>
+            <input type="submit" name="login" value="Login" class="btn btn-primary btn-block">
+        </form>
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <br>
+        <a href="#" class="forgot">Forgot user name or password?</a>
+        <br>
+        <p><a href="/register">Register as a new user</a></p>
+    </div>
+</body>
+</html>
