@@ -3,7 +3,7 @@
 QueryDocs is a web application designed to enhance document analysis by intelligently retrieving relevant sentences based on user queries. Traditional search methods often miss nuanced information in documents, requiring exact keyword matches. QueryDocs overcomes this limitation using advanced sentence transformer models to identify contextually relevant sentences, even when specific keywords are absent.
 
 <p align="center">
-  <img src="https://github.com/Git-With-Chris/ESG_Automation_ANZ/assets/132337461/782d8aab-7406-4d39-9291-bfb874aee466" width="700">
+  <img src="https://github.com/KrishnakanthSrikanth/QueryDocs/blob/main/Images/Concept.gif" width="700">
 </p>
 
 ## Features
@@ -31,7 +31,7 @@ To set up the QueryDocs App on your local machine, follow these steps:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Git-With-Chris/QueryDocs.git
+git clone https://github.com/KrishnakanthSrikanth/QueryDocs.git
 ```
 2. **Change Directory**
 
